@@ -32,7 +32,8 @@ jobs:
         run: npm run lint
 
       - name: Type-check
-        run: npx tsc --noEmit
+        # next typegen first: Next.js-generated types (e.g. LayoutProps) live in .next/, which CI does not have.
+        run: npm run typecheck
 
       - name: Audit production dependencies
         run: npm audit --omit=dev --audit-level=high

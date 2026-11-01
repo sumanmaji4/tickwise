@@ -1,7 +1,6 @@
 # Tickwise: Support & SLA Desk (frontend)
 
-> **This repository is the frontend** (Next.js 16, TypeScript, Tailwind, TanStack Query).
-> The API and worker live in the backend repository: **[Tickwise backend → README](../backend/README.md)**
+Backend repository: https://github.com/sumanmaji4/tickwise-backend
 
 Companies receive support requests by email and web forms. Without a system, requests get lost,
 nobody owns them, and SLA promises are breached silently. Tickwise turns every request into a
